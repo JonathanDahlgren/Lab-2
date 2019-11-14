@@ -1,0 +1,52 @@
+
+.body{
+    
+}
+
+.contact-info {
+    background-color: blue;
+    text-align: center;
+    padding: 5em;
+    justify-content: space-around;
+
+}
+
+.profil-image {
+    background-color: brown;
+}
+
+.summery {
+    background-color: chartreuse;
+    padding: 5em;
+    text-align: center;
+}
+
+.knowleage {
+    background-color: darkblue;
+    padding: 5em;
+    text-align: center;
+}
+
+.expreience {
+    background-color: darkorange;
+    padding: 5em;
+    text-align: center;
+}
+
+.edjucation {
+    background-color: darkred;
+    padding: 5em;
+    text-align: center;
+}
+
+.laungeuge {
+    background-color: darkturquoise;
+    padding: 5em;
+    text-align: center;
+}
+
+.aboutMe {
+    background-color: dimgray;
+    padding: 5em;
+    text-align: center;
+}
