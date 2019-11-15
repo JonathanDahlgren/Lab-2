@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
 
 
 .body{
@@ -18,7 +18,7 @@
 }
 
 .contact-info {
-    background-color: blue;
+    background-color: yellow;
     text-align: center;
     padding: 30em;
     justify-content: space-around;
@@ -33,37 +33,44 @@
 }
 
 .summery {
-    background-color: chartreuse;
+    background-color: yellow;
     padding: 5em;
     text-align: center;
 }
 
 .knowleage {
-    background-color: darkblue;
+    background-color: yellow; 
     padding: 5em;
     text-align: center;
 }
 
 .expreience {
-    background-color: darkorange;
+    background-color: yellow; 
     padding: 5em;
     text-align: center;
 }
 
 .edjucation {
-    background-color: darkred;
+    background-color: yellow;
     padding: 5em;
     text-align: center;
 }
 
 .laungeuge {
-    background-color: darkturquoise;
+    background-color: yellow; 
     padding: 5em;
     text-align: center;
 }
 
 .aboutMe {
-    background-color: dimgray;
+    background-color: yellow; 
     padding: 5em;
     text-align: center;
+}
+
+#aboutMe {
+    height: auto;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1s;
 }
