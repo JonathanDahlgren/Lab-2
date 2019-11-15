@@ -3,16 +3,29 @@
     
 }
 
+* {
+    margin: 0;
+    padding: 0;
+}
+.myName {
+    text-align: center;
+    justify-content: center;
+    padding: 1em;
+}
+
 .contact-info {
     background-color: blue;
     text-align: center;
     padding: 5em;
     justify-content: space-around;
-
+    margin-left: auto;
 }
 
 .profil-image {
-    background-color: brown;
+    margin-right: auto;
+    position: absolute;
+    right: 0em;
+    top: 5em;
 }
 
 .summery {
