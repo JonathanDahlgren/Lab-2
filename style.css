@@ -1,10 +1,10 @@
-
-
-
+ 
+ 
+ 
 .body{
     font-style: initial;
 }
-
+ 
 * {
     margin: 0;
     padding: 0;
@@ -16,7 +16,7 @@
     border-bottom-style: solid;
     border-color: red;
 }
-
+ 
 .contact-info {
     background-color: yellow;
     text-align: center;
@@ -24,53 +24,107 @@
     justify-content: space-around;
     margin-left: auto;
 }
-
+ 
 .profil-image {
     margin-right: auto;
     position: absolute;
     right: 0em;
     top: 5em;
 }
-
+ 
 .summery {
     background-color: yellow;
     padding: 5em;
     text-align: center;
 }
-
+ 
 .knowleage {
-    background-color: yellow; 
-    padding: 5em;
+    background-image: url("./image/patrick-tomasso-Oaqk7qqNh_c-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-size: auto;
+    padding: 40em;
     text-align: center;
 }
-
+ 
 .expreience {
-    background-color: yellow; 
-    padding: 5em;
+    background-image: url("./image/austin-distel-wD1LRb9OeEo-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-size: auto;
+    padding: 40em;
+    text-align: center;
+   
+}
+ 
+.edjucation {
+    background-image: url("./image/element5-digital-OyCl7Y4y0Bk-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-size: auto;
+    padding: 40em;
     text-align: center;
 }
-
-.edjucation {
+ 
+.laungeuge {
+    background-image: url("./image/dmitry-ratushny-wpi3sDUrSEk-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-size: auto;
+    padding: 40em;
+    text-align: center;
+}
+ 
+.aboutMe {
     background-color: yellow;
     padding: 5em;
     text-align: center;
 }
-
-.laungeuge {
-    background-color: yellow; 
-    padding: 5em;
-    text-align: center;
-}
-
-.aboutMe {
-    background-color: yellow; 
-    padding: 5em;
-    text-align: center;
-}
-
+ 
 #aboutMe {
     height: auto;
     max-height: 0;
     overflow: hidden;
     transition: max-height 1s;
+}
+ 
+#knowleageID {
+    height: auto;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1s;
+    background-image: url("./image/ivan-gromov-Y3vPEuNlf7w-unsplash.jpg");
+   
+}
+ 
+#expreienceeID {
+    height: auto;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1s;    
+}
+ 
+#edjucationnID {
+    height: auto;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1s;  
+}
+#laungeugeeID {
+    height: auto;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1s;  
+}
+ 
+ 
+.knapp {
+   border: none;
+   background-color: transparent;
+   font-size: 5em;
+   cursor: pointer;
 }
