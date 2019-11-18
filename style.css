@@ -9,16 +9,23 @@
     margin: 0;
     padding: 0;
 }
-.myName {
+
+.me {
+    
     text-align: center;
-    justify-content: center;
-    padding: 1em;
-    border-bottom-style: solid;
-    border-color: red;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.myName {
+    font-size: 2em;
+    top: 4em;
+    padding: 2em 3em;
+
 }
  
 .contact-info {
-    background-color: yellow;
     text-align: center;
     padding: 30em;
     justify-content: space-around;
@@ -29,7 +36,7 @@
     margin-right: auto;
     position: absolute;
     right: 0em;
-    top: 5em;
+
 }
  
 .summery {
