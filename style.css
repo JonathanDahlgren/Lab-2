@@ -60,7 +60,7 @@
 .segment > div {
     position: absolute;
     left: 0;
-    top: 0.5em; 
+    top: 6%; 
     right: 0;
     bottom: 0;
 }
