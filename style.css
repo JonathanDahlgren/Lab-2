@@ -60,44 +60,9 @@
 .segment > div {
     position: absolute;
     left: 0;
-    top: 0;
+    top: 0.5em; 
     right: 0;
     bottom: 0;
-}
-
-.knowleageButton {
-}
- 
-.expreience {
-    
- 
-   
-}
- 
-.edjucation {
-    background-image: url("./image/element5-digital-OyCl7Y4y0Bk-unsplash.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-size: auto;
-    padding: 40em;
-    text-align: center;
-}
- 
-.laungeuge {
-    background-image: url("./image/dmitry-ratushny-wpi3sDUrSEk-unsplash.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-size: auto;
-    padding: 40em;
-    text-align: center;
-}
- 
-.aboutMe {
-    background-color: yellow;
-    padding: 5em;
-    text-align: center;
 }
  
 #aboutMe {
