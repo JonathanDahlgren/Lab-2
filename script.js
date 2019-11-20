@@ -7,7 +7,7 @@ function loadPage() {
 function updateAge() {
     const now = new Date().getFullYear()
     const birth = new Date('1994-04-25').getFullYear()
- 
+    
     console.log(now - birth)
 }
  

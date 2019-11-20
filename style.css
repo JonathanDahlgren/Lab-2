@@ -1,8 +1,9 @@
- 
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
  
  
 .body{
     font-style: initial;
+    font-family: 'Muli', sans-serif;
 }
  
 * {
@@ -11,17 +12,18 @@
 }
  
 .me {
-    background-image: linear-gradient(to bottom, #6f6bd1, #8c58b7, #9c459a, #a2347b, #a0265d, #a43645, #9e4934, #935a2c, #897c44, #839870, #8daf9e, #adc2c1);
-    text-align: center;
+    background-image: linear-gradient(to bottom, #6f6bd1, #8c58b7, #9c459a, #a2347b, #a0265d, #a43645, #9e4934, #935a2c, #897c44, #2f5310, #8daf9e, #adc2c1);
+    display: flex;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     padding: 15em;
 }
  
 .myName {
-    font-size: 1.5em;
+    font-size: 1.5rem;
  
    
  
@@ -75,6 +77,9 @@
     transition: max-height 1s;
     background-color: rgba(255,255,255,0.7);
     text-align: left;
+    width: 80%;
+    margin: 0 auto;
+    text-indent: 1rem;
 }
  
 #knowleageID {
@@ -84,6 +89,9 @@
     transition: max-height 1s;
     background-color: rgba(255,255,255,0.7);
     text-align: left;
+    width: 20%;
+    margin: 0 auto;
+    text-indent: 1rem;
 }
  
 #expreienceeID {
@@ -92,7 +100,10 @@
     overflow: hidden;
     transition: max-height 3.3s;
     background-color: rgba(255,255,255,0.7);
-    text-align: left;  
+    text-align: left;
+    width: 20%;
+    margin: 0 auto;
+    text-indent: 1rem;
 }
  
 #edjucationnID {
@@ -102,6 +113,9 @@
     transition: max-height 3s; 
     background-color: rgba(255,255,255,0.7); 
     text-align: left;
+    width: 20%;
+    margin: 0 auto;
+    text-indent: 1rem;
 }
 #laungeugeeID {
     height: auto;
@@ -110,13 +124,16 @@
     transition: max-height 1s; 
     background-color: rgba(255, 255, 255, 0.7);
     text-align: center;
+    width: 20%;
+    margin: 0 auto;
+    text-indent: 1rem;
 }
  
  
 .knapp {
    border: none;
    background-color: transparent;
-   font-size: 5em;
+   font-size: 10vw;
    cursor: pointer;
 }
  
@@ -126,5 +143,23 @@
     width: 100%;
     height: 100%;
     background-image: linear-gradient(to left bottom, #384c09, #4f4d00, #664b00, #7e4700, #963f16, #a05321, #aa662e, #b3783d, #afa264, #b2c69c, #c9e5d4, #f8fffe);
-    padding: 2em 0 1em 0;
+    padding: 2rem 0 1rem 0;
+}
+@media screen and (max-width: 620px) {
+    #knowleageID {
+        width: 100%;
+    }
+    #aboutMe {
+        width: 100%;
+    }
+    #expreienceeID {
+        width: 100%;
+    }
+    #edjucationnID {
+        width: 100%;
+    }
+    #laungeugeeID {
+        width: 100%;
+    }
+    
 }
