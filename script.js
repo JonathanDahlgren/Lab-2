@@ -37,7 +37,7 @@ function erfarenhet()  {
     const expreienceeID = document.getElementById("expreienceeID");
  
     if (!expreienceeID.style.maxHeight) {
-        expreienceeID.style.maxHeight = '10rem';
+        expreienceeID.style.maxHeight = '33rem';
     } else {
         expreienceeID.style.maxHeight = null;
     }
@@ -48,7 +48,7 @@ function utbildning()  {
     const edjucationnID = document.getElementById("edjucationnID");
  
     if (!edjucationnID.style.maxHeight) {
-        edjucationnID.style.maxHeight = '10rem';
+        edjucationnID.style.maxHeight = '30rem';
     } else {
         edjucationnID.style.maxHeight = null;
     }
@@ -59,7 +59,7 @@ function utbildning()  {
     const edjucationnID = document.getElementById("edjucationnID");
  
     if (!edjucationnID.style.maxHeight) {
-        edjucationnID.style.maxHeight = '10rem';
+        edjucationnID.style.maxHeight = '30rem';
     } else {
         edjucationnID.style.maxHeight = null;
     }

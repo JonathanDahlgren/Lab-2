@@ -9,20 +9,22 @@
     margin: 0;
     padding: 0;
 }
-
+ 
 .me {
-    
+    background-image: linear-gradient(to bottom, #6f6bd1, #8c58b7, #9c459a, #a2347b, #a0265d, #a43645, #9e4934, #935a2c, #897c44, #839870, #8daf9e, #adc2c1);
     text-align: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    justify-content: center;
+    padding: 15em;
 }
-
+ 
 .myName {
-    font-size: 2em;
-    top: 4em;
-    padding: 2em 3em;
-
+    font-size: 1.5em;
+ 
+   
+ 
 }
  
 .contact-info {
@@ -35,8 +37,9 @@
 .profil-image {
     margin-right: auto;
     position: absolute;
-    right: 0em;
-
+    align-content: center;
+    justify-content: center;
+ 
 }
  
 .summery {
@@ -53,23 +56,25 @@
     text-align: center;
     position: relative;
 }
-
+ 
 .segment > img {
     width: 100%;
 }
 .segment > div {
     position: absolute;
     left: 0;
-    top: 6%; 
+    top: 6%;
     right: 0;
     bottom: 0;
 }
- 
+
 #aboutMe {
     height: auto;
     max-height: 0;
     overflow: hidden;
     transition: max-height 1s;
+    background-color: rgba(255,255,255,0.7);
+    text-align: left;
 }
  
 #knowleageID {
@@ -77,28 +82,34 @@
     max-height: 0;
     overflow: hidden;
     transition: max-height 1s;
-    background-image: url("./image/ivan-gromov-Y3vPEuNlf7w-unsplash.jpg");
-   
+    background-color: rgba(255,255,255,0.7);
+    text-align: left;
 }
  
 #expreienceeID {
     height: auto;
     max-height: 0;
     overflow: hidden;
-    transition: max-height 1s;    
+    transition: max-height 3.3s;
+    background-color: rgba(255,255,255,0.7);
+    text-align: left;  
 }
  
 #edjucationnID {
     height: auto;
     max-height: 0;
     overflow: hidden;
-    transition: max-height 1s;  
+    transition: max-height 3s; 
+    background-color: rgba(255,255,255,0.7); 
+    text-align: left;
 }
 #laungeugeeID {
     height: auto;
     max-height: 0;
     overflow: hidden;
-    transition: max-height 1s;  
+    transition: max-height 1s; 
+    background-color: rgba(255, 255, 255, 0.7);
+    text-align: center;
 }
  
  
@@ -108,4 +119,12 @@
    font-size: 5em;
    cursor: pointer;
 }
-
+ 
+.footerContent {
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to left bottom, #384c09, #4f4d00, #664b00, #7e4700, #963f16, #a05321, #aa662e, #b3783d, #afa264, #b2c69c, #c9e5d4, #f8fffe);
+    padding: 2em 0 1em 0;
+}
