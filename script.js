@@ -1,15 +1,15 @@
 window.onload = loadPage
  
 function loadPage() {
-    updateAge()
+    new Date()
 }
  
-function updateAge() {
-    const now = new Date().getFullYear()
-    const birth = new Date('1994-04-25').getFullYear()
-    
-    console.log(now - birth)
-}
+const date1 = new Date('4/25/1994');
+const date2 = new Date();
+const diffTime = Math.abs(date2 - date1);
+const myAge = Math.floor(diffTime / (1000 * 60 * 60 * 24 * 365.25));
+console.log (myAge)
+ 
  
 function omMig()  {
     const aboutMe = document.getElementById("aboutMe");
@@ -37,7 +37,7 @@ function erfarenhet()  {
     const expreienceeID = document.getElementById("expreienceeID");
  
     if (!expreienceeID.style.maxHeight) {
-        expreienceeID.style.maxHeight = '33rem';
+        expreienceeID.style.maxHeight = '130rem';
     } else {
         expreienceeID.style.maxHeight = null;
     }
@@ -48,7 +48,7 @@ function utbildning()  {
     const edjucationnID = document.getElementById("edjucationnID");
  
     if (!edjucationnID.style.maxHeight) {
-        edjucationnID.style.maxHeight = '30rem';
+        edjucationnID.style.maxHeight = '70rem';
     } else {
         edjucationnID.style.maxHeight = null;
     }
