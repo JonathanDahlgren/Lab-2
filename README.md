@@ -6,4 +6,4 @@ Varje rubrik akiverar en text när man kickar på den.
 Tänk bara på att man kommer få scrolla lite i "Erfarenhet" och "Utbildning".
 
 Demo: https://github.com/JonathanDahlgren/Lab-2
-Repo: 
+Repo: https://github.com/JonathanDahlgren/Lab-2.git
